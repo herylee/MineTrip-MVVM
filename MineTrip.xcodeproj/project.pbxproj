@@ -1,0 +1,1285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D04AAE51EF500AD00CA2266 /* MineTripLeftViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D04AAE41EF500AD00CA2266 /* MineTripLeftViewModel.m */; };
+		2D13BA6B1EED29FD000A629A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D13BA6A1EED29FD000A629A /* main.m */; };
+		2D13BA841EED29FE000A629A /* MineTripTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D13BA831EED29FE000A629A /* MineTripTests.m */; };
+		2D13BA8F1EED29FE000A629A /* MineTripUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D13BA8E1EED29FE000A629A /* MineTripUITests.m */; };
+		2D13BAA61EED3842000A629A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D13BA9E1EED3842000A629A /* AppDelegate.m */; };
+		2D13BAA71EED3842000A629A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D13BA9F1EED3842000A629A /* Assets.xcassets */; };
+		2D13BAA81EED3842000A629A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D13BAA01EED3842000A629A /* LaunchScreen.storyboard */; };
+		2D13BAA91EED3842000A629A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D13BAA21EED3842000A629A /* Main.storyboard */; };
+		2D13BB001EED4469000A629A /* MineTripSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D13BAFF1EED4469000A629A /* MineTripSettingsViewController.m */; };
+		2DF03ED21EED98F500818398 /* MineTripNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF03ED11EED98F500818398 /* MineTripNetWorking.m */; };
+		2DF03ED51EED9A3400818398 /* CommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF03ED41EED9A3400818398 /* CommonUtils.m */; };
+		2DF03ED81EED9B1200818398 /* MineTripShowMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF03ED71EED9B1200818398 /* MineTripShowMessageView.m */; };
+		2DF03EDC1EED9BA700818398 /* MineTripConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF03EDB1EED9BA700818398 /* MineTripConst.m */; };
+		2DF03EE01EED9D2400818398 /* MineTripRootVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF03EDF1EED9D2400818398 /* MineTripRootVc.m */; };
+		2DF03EF01EED9E0900818398 /* NSDictionary+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF03EE31EED9E0900818398 /* NSDictionary+Property.m */; };
+		2DF03EF11EED9E0900818398 /* NSNotificationCenter+ChitAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF03EE51EED9E0900818398 /* NSNotificationCenter+ChitAdd.m */; };
+		2DF03EF21EED9E0900818398 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF03EE71EED9E0900818398 /* NSObject+Model.m */; };
+		2DF03EF31EED9E0900818398 /* UIBarButtonItem+MineShopBarButtonCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF03EE91EED9E0900818398 /* UIBarButtonItem+MineShopBarButtonCustom.m */; };
+		2DF03EF41EED9E0900818398 /* UIBarButtonItem+MineShopBarItemAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF03EEB1EED9E0900818398 /* UIBarButtonItem+MineShopBarItemAdd.m */; };
+		2DF03EF51EED9E0900818398 /* UIButton+Delay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF03EED1EED9E0900818398 /* UIButton+Delay.m */; };
+		2DF03EF61EED9E0900818398 /* UIButton+touch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF03EEF1EED9E0900818398 /* UIButton+touch.m */; };
+		2DF03EF91EED9E8E00818398 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF03EF81EED9E8E00818398 /* UIView+Extension.m */; };
+		2DF920681EF235FB00015042 /* MineTripSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF920671EF235FB00015042 /* MineTripSliderViewController.m */; };
+		2DF9206B1EF26D7400015042 /* MineTripLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9206A1EF26D7400015042 /* MineTripLeftViewController.m */; };
+		2DF9206E1EF26DCF00015042 /* MineTripHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9206D1EF26DCF00015042 /* MineTripHomeViewController.m */; };
+		2DF920711EF2717600015042 /* MineTripNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF920701EF2717600015042 /* MineTripNavigationController.m */; };
+		2DF9207A1EF2826700015042 /* NewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF920751EF2826700015042 /* NewFeatureViewController.m */; };
+		2DF9207B1EF2826700015042 /* NewFeatureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF920791EF2826700015042 /* NewFeatureCollectionViewCell.m */; };
+		2DF920811EF28B6100015042 /* UIViewController+MineTripSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF920801EF28B6100015042 /* UIViewController+MineTripSliderViewController.m */; };
+		2DF920881EF295C600015042 /* MineTripLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF920861EF295C600015042 /* MineTripLeftTableViewCell.m */; };
+		2DF920891EF295C600015042 /* MineTripLeftTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DF920871EF295C600015042 /* MineTripLeftTableViewCell.xib */; };
+		2DF9208C1EF297B400015042 /* MineTripNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9208B1EF297B400015042 /* MineTripNewsViewController.m */; };
+		2DF9208F1EF297D000015042 /* MineTripServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9208E1EF297D000015042 /* MineTripServicesViewController.m */; };
+		2DF920921EF2982C00015042 /* MineTripVideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF920911EF2982C00015042 /* MineTripVideosViewController.m */; };
+		2DF920951EF2984600015042 /* MineTripSurroundingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF920941EF2984600015042 /* MineTripSurroundingsViewController.m */; };
+		D2F6101CCDB302DD7376C855 /* libPods-MineTrip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 014D51F961D4FB4501E624B5 /* libPods-MineTrip.a */; };
+		E18FBCFB9818C94F10E3306A /* libPods-MineTripTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 173483662FC5F9C7185201C1 /* libPods-MineTripTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D13BA801EED29FE000A629A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D13BA5E1EED29FD000A629A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D13BA651EED29FD000A629A;
+			remoteInfo = MineTrip;
+		};
+		2D13BA8B1EED29FE000A629A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D13BA5E1EED29FD000A629A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D13BA651EED29FD000A629A;
+			remoteInfo = MineTrip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014D51F961D4FB4501E624B5 /* libPods-MineTrip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MineTrip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		173483662FC5F9C7185201C1 /* libPods-MineTripTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MineTripTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D04AAE31EF500AD00CA2266 /* MineTripLeftViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTripLeftViewModel.h; sourceTree = "<group>"; };
+		2D04AAE41EF500AD00CA2266 /* MineTripLeftViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTripLeftViewModel.m; sourceTree = "<group>"; };
+		2D13BA661EED29FD000A629A /* MineTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D13BA6A1EED29FD000A629A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D13BA7A1EED29FD000A629A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D13BA7F1EED29FE000A629A /* MineTripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineTripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D13BA831EED29FE000A629A /* MineTripTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineTripTests.m; sourceTree = "<group>"; };
+		2D13BA851EED29FE000A629A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D13BA8A1EED29FE000A629A /* MineTripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineTripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D13BA8E1EED29FE000A629A /* MineTripUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineTripUITests.m; sourceTree = "<group>"; };
+		2D13BA901EED29FE000A629A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D13BA9D1EED3842000A629A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D13BA9E1EED3842000A629A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D13BA9F1EED3842000A629A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D13BAA11EED3842000A629A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D13BAA31EED3842000A629A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D13BAFE1EED4469000A629A /* MineTripSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTripSettingsViewController.h; sourceTree = "<group>"; };
+		2D13BAFF1EED4469000A629A /* MineTripSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTripSettingsViewController.m; sourceTree = "<group>"; };
+		2DF03ED01EED98F500818398 /* MineTripNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MineTripNetWorking.h; path = "MineTrip/Classes/Settings(设置)/ViewController/Controller/MineTripNetWorking.h"; sourceTree = SOURCE_ROOT; };
+		2DF03ED11EED98F500818398 /* MineTripNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MineTripNetWorking.m; path = "MineTrip/Classes/Settings(设置)/ViewController/Controller/MineTripNetWorking.m"; sourceTree = SOURCE_ROOT; };
+		2DF03ED31EED9A3400818398 /* CommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtils.h; sourceTree = "<group>"; };
+		2DF03ED41EED9A3400818398 /* CommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtils.m; sourceTree = "<group>"; };
+		2DF03ED61EED9B1200818398 /* MineTripShowMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTripShowMessageView.h; sourceTree = "<group>"; };
+		2DF03ED71EED9B1200818398 /* MineTripShowMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTripShowMessageView.m; sourceTree = "<group>"; };
+		2DF03ED91EED9B7A00818398 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		2DF03EDA1EED9BA700818398 /* MineTripConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTripConst.h; sourceTree = "<group>"; };
+		2DF03EDB1EED9BA700818398 /* MineTripConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTripConst.m; sourceTree = "<group>"; };
+		2DF03EDD1EED9BCE00818398 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2DF03EDE1EED9D2400818398 /* MineTripRootVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTripRootVc.h; sourceTree = "<group>"; };
+		2DF03EDF1EED9D2400818398 /* MineTripRootVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTripRootVc.m; sourceTree = "<group>"; };
+		2DF03EE21EED9E0900818398 /* NSDictionary+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Property.h"; sourceTree = "<group>"; };
+		2DF03EE31EED9E0900818398 /* NSDictionary+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Property.m"; sourceTree = "<group>"; };
+		2DF03EE41EED9E0900818398 /* NSNotificationCenter+ChitAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+ChitAdd.h"; sourceTree = "<group>"; };
+		2DF03EE51EED9E0900818398 /* NSNotificationCenter+ChitAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+ChitAdd.m"; sourceTree = "<group>"; };
+		2DF03EE61EED9E0900818398 /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		2DF03EE71EED9E0900818398 /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		2DF03EE81EED9E0900818398 /* UIBarButtonItem+MineShopBarButtonCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MineShopBarButtonCustom.h"; sourceTree = "<group>"; };
+		2DF03EE91EED9E0900818398 /* UIBarButtonItem+MineShopBarButtonCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+MineShopBarButtonCustom.m"; sourceTree = "<group>"; };
+		2DF03EEA1EED9E0900818398 /* UIBarButtonItem+MineShopBarItemAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MineShopBarItemAdd.h"; sourceTree = "<group>"; };
+		2DF03EEB1EED9E0900818398 /* UIBarButtonItem+MineShopBarItemAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+MineShopBarItemAdd.m"; sourceTree = "<group>"; };
+		2DF03EEC1EED9E0900818398 /* UIButton+Delay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Delay.h"; sourceTree = "<group>"; };
+		2DF03EED1EED9E0900818398 /* UIButton+Delay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Delay.m"; sourceTree = "<group>"; };
+		2DF03EEE1EED9E0900818398 /* UIButton+touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+touch.h"; sourceTree = "<group>"; };
+		2DF03EEF1EED9E0900818398 /* UIButton+touch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+touch.m"; sourceTree = "<group>"; };
+		2DF03EF71EED9E8E00818398 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		2DF03EF81EED9E8E00818398 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		2DF920661EF235FB00015042 /* MineTripSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTripSliderViewController.h; sourceTree = "<group>"; };
+		2DF920671EF235FB00015042 /* MineTripSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTripSliderViewController.m; sourceTree = "<group>"; };
+		2DF920691EF26D7400015042 /* MineTripLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTripLeftViewController.h; sourceTree = "<group>"; };
+		2DF9206A1EF26D7400015042 /* MineTripLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTripLeftViewController.m; sourceTree = "<group>"; };
+		2DF9206C1EF26DCF00015042 /* MineTripHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTripHomeViewController.h; sourceTree = "<group>"; };
+		2DF9206D1EF26DCF00015042 /* MineTripHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTripHomeViewController.m; sourceTree = "<group>"; };
+		2DF9206F1EF2717600015042 /* MineTripNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTripNavigationController.h; sourceTree = "<group>"; };
+		2DF920701EF2717600015042 /* MineTripNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTripNavigationController.m; sourceTree = "<group>"; };
+		2DF920741EF2826700015042 /* NewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureViewController.h; sourceTree = "<group>"; };
+		2DF920751EF2826700015042 /* NewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureViewController.m; sourceTree = "<group>"; };
+		2DF920781EF2826700015042 /* NewFeatureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureCollectionViewCell.h; sourceTree = "<group>"; };
+		2DF920791EF2826700015042 /* NewFeatureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureCollectionViewCell.m; sourceTree = "<group>"; };
+		2DF9207F1EF28B6100015042 /* UIViewController+MineTripSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MineTripSliderViewController.h"; sourceTree = "<group>"; };
+		2DF920801EF28B6100015042 /* UIViewController+MineTripSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MineTripSliderViewController.m"; sourceTree = "<group>"; };
+		2DF920851EF295C600015042 /* MineTripLeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTripLeftTableViewCell.h; sourceTree = "<group>"; };
+		2DF920861EF295C600015042 /* MineTripLeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTripLeftTableViewCell.m; sourceTree = "<group>"; };
+		2DF920871EF295C600015042 /* MineTripLeftTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineTripLeftTableViewCell.xib; sourceTree = "<group>"; };
+		2DF9208A1EF297B400015042 /* MineTripNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTripNewsViewController.h; sourceTree = "<group>"; };
+		2DF9208B1EF297B400015042 /* MineTripNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTripNewsViewController.m; sourceTree = "<group>"; };
+		2DF9208D1EF297D000015042 /* MineTripServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTripServicesViewController.h; sourceTree = "<group>"; };
+		2DF9208E1EF297D000015042 /* MineTripServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTripServicesViewController.m; sourceTree = "<group>"; };
+		2DF920901EF2982C00015042 /* MineTripVideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTripVideosViewController.h; sourceTree = "<group>"; };
+		2DF920911EF2982C00015042 /* MineTripVideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTripVideosViewController.m; sourceTree = "<group>"; };
+		2DF920931EF2984600015042 /* MineTripSurroundingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTripSurroundingsViewController.h; sourceTree = "<group>"; };
+		2DF920941EF2984600015042 /* MineTripSurroundingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTripSurroundingsViewController.m; sourceTree = "<group>"; };
+		C255C9799D80BCBB03ED0B68 /* Pods-MineTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineTrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MineTrip/Pods-MineTrip.debug.xcconfig"; sourceTree = "<group>"; };
+		E7FCCFEA4871CBA06BCE3B3C /* Pods-MineTripTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineTripTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MineTripTests/Pods-MineTripTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBE3C7C1D7D33FB60D1A3065 /* Pods-MineTripTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineTripTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MineTripTests/Pods-MineTripTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE68FB1EFDB970699902D55D /* Pods-MineTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineTrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-MineTrip/Pods-MineTrip.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D13BA631EED29FD000A629A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F6101CCDB302DD7376C855 /* libPods-MineTrip.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D13BA7C1EED29FE000A629A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18FBCFB9818C94F10E3306A /* libPods-MineTripTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D13BA871EED29FE000A629A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D13BA5D1EED29FD000A629A = {
+			isa = PBXGroup;
+			children = (
+				2D13BA681EED29FD000A629A /* MineTrip */,
+				2D13BA821EED29FE000A629A /* MineTripTests */,
+				2D13BA8D1EED29FE000A629A /* MineTripUITests */,
+				2D13BA671EED29FD000A629A /* Products */,
+				6344DE5428580F1209649E5D /* Pods */,
+				39024888E529D456BF6AA4E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D13BA671EED29FD000A629A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BA661EED29FD000A629A /* MineTrip.app */,
+				2D13BA7F1EED29FE000A629A /* MineTripTests.xctest */,
+				2D13BA8A1EED29FE000A629A /* MineTripUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D13BA681EED29FD000A629A /* MineTrip */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BA9C1EED3842000A629A /* AppEntry */,
+				2D13BAD01EED41F5000A629A /* Classes */,
+				2D13BAAD1EED39E4000A629A /* Tools */,
+				2D13BA691EED29FD000A629A /* Supporting Files */,
+			);
+			path = MineTrip;
+			sourceTree = "<group>";
+		};
+		2D13BA691EED29FD000A629A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BA7A1EED29FD000A629A /* Info.plist */,
+				2D13BA6A1EED29FD000A629A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D13BA821EED29FE000A629A /* MineTripTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BA831EED29FE000A629A /* MineTripTests.m */,
+				2D13BA851EED29FE000A629A /* Info.plist */,
+			);
+			path = MineTripTests;
+			sourceTree = "<group>";
+		};
+		2D13BA8D1EED29FE000A629A /* MineTripUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BA8E1EED29FE000A629A /* MineTripUITests.m */,
+				2D13BA901EED29FE000A629A /* Info.plist */,
+			);
+			path = MineTripUITests;
+			sourceTree = "<group>";
+		};
+		2D13BA9C1EED3842000A629A /* AppEntry */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BA9D1EED3842000A629A /* AppDelegate.h */,
+				2D13BA9E1EED3842000A629A /* AppDelegate.m */,
+				2D13BA9F1EED3842000A629A /* Assets.xcassets */,
+				2D13BAA01EED3842000A629A /* LaunchScreen.storyboard */,
+				2D13BAA21EED3842000A629A /* Main.storyboard */,
+			);
+			path = AppEntry;
+			sourceTree = "<group>";
+		};
+		2D13BAAC1EED39E4000A629A /* NetRequest */ = {
+			isa = PBXGroup;
+			children = (
+				2DF03ED01EED98F500818398 /* MineTripNetWorking.h */,
+				2DF03ED11EED98F500818398 /* MineTripNetWorking.m */,
+			);
+			name = NetRequest;
+			path = ../NetRequest;
+			sourceTree = "<group>";
+		};
+		2D13BAAD1EED39E4000A629A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BAAC1EED39E4000A629A /* NetRequest */,
+				2DF03EE11EED9E0900818398 /* Category */,
+				2D13BAAF1EED39E4000A629A /* Configure */,
+				2D13BAB01EED39E4000A629A /* RootVc */,
+				2D13BAB11EED39E4000A629A /* Utils */,
+				2D13BAB21EED39E4000A629A /* Vender */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2D13BAAF1EED39E4000A629A /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				2DF03ED91EED9B7A00818398 /* Config.h */,
+				2DF03EDA1EED9BA700818398 /* MineTripConst.h */,
+				2DF03EDB1EED9BA700818398 /* MineTripConst.m */,
+				2DF03EDD1EED9BCE00818398 /* PrefixHeader.pch */,
+			);
+			path = Configure;
+			sourceTree = "<group>";
+		};
+		2D13BAB01EED39E4000A629A /* RootVc */ = {
+			isa = PBXGroup;
+			children = (
+				2DF03EDE1EED9D2400818398 /* MineTripRootVc.h */,
+				2DF03EDF1EED9D2400818398 /* MineTripRootVc.m */,
+			);
+			path = RootVc;
+			sourceTree = "<group>";
+		};
+		2D13BAB11EED39E4000A629A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2DF03ED31EED9A3400818398 /* CommonUtils.h */,
+				2DF03ED41EED9A3400818398 /* CommonUtils.m */,
+				2DF03ED61EED9B1200818398 /* MineTripShowMessageView.h */,
+				2DF03ED71EED9B1200818398 /* MineTripShowMessageView.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2D13BAB21EED39E4000A629A /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		2D13BAD01EED41F5000A629A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2DF920721EF2826700015042 /* NewFeature */,
+				2D13BAD71EED41F5000A629A /* Main */,
+				2D13BAD11EED41F5000A629A /* Home(首页) */,
+				2D13BADD1EED41F5000A629A /* News(最新消息) */,
+				2D13BAE31EED41F6000A629A /* Services(精选服务) */,
+				2D13BAF51EED41F6000A629A /* Videos(视频动态) */,
+				2D13BAEF1EED41F6000A629A /* Surroundings(周边配套) */,
+				2D13BAE91EED41F6000A629A /* Settings(设置) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2D13BAD11EED41F5000A629A /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BAD21EED41F5000A629A /* Model */,
+				2D13BAD31EED41F5000A629A /* ViewController */,
+				2D13BAD61EED41F5000A629A /* ViewModel */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		2D13BAD21EED41F5000A629A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D13BAD31EED41F5000A629A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BAD41EED41F5000A629A /* Controller */,
+				2D13BAD51EED41F5000A629A /* View */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2D13BAD41EED41F5000A629A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9206C1EF26DCF00015042 /* MineTripHomeViewController.h */,
+				2DF9206D1EF26DCF00015042 /* MineTripHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2D13BAD51EED41F5000A629A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D13BAD61EED41F5000A629A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D13BAD71EED41F5000A629A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BAD81EED41F5000A629A /* Model */,
+				2D13BAD91EED41F5000A629A /* ViewController */,
+				2D13BADC1EED41F5000A629A /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2D13BAD81EED41F5000A629A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D04AAE31EF500AD00CA2266 /* MineTripLeftViewModel.h */,
+				2D04AAE41EF500AD00CA2266 /* MineTripLeftViewModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D13BAD91EED41F5000A629A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BADA1EED41F5000A629A /* Controller */,
+				2D13BADB1EED41F5000A629A /* View */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2D13BADA1EED41F5000A629A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DF920661EF235FB00015042 /* MineTripSliderViewController.h */,
+				2DF920671EF235FB00015042 /* MineTripSliderViewController.m */,
+				2DF920691EF26D7400015042 /* MineTripLeftViewController.h */,
+				2DF9206A1EF26D7400015042 /* MineTripLeftViewController.m */,
+				2DF9206F1EF2717600015042 /* MineTripNavigationController.h */,
+				2DF920701EF2717600015042 /* MineTripNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2D13BADB1EED41F5000A629A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DF920851EF295C600015042 /* MineTripLeftTableViewCell.h */,
+				2DF920861EF295C600015042 /* MineTripLeftTableViewCell.m */,
+				2DF920871EF295C600015042 /* MineTripLeftTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D13BADC1EED41F5000A629A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D13BADD1EED41F5000A629A /* News(最新消息) */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BADE1EED41F5000A629A /* Model */,
+				2D13BADF1EED41F6000A629A /* ViewController */,
+				2D13BAE21EED41F6000A629A /* ViewModel */,
+			);
+			path = "News(最新消息)";
+			sourceTree = "<group>";
+		};
+		2D13BADE1EED41F5000A629A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D13BADF1EED41F6000A629A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BAE01EED41F6000A629A /* Controller */,
+				2D13BAE11EED41F6000A629A /* View */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2D13BAE01EED41F6000A629A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9208A1EF297B400015042 /* MineTripNewsViewController.h */,
+				2DF9208B1EF297B400015042 /* MineTripNewsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2D13BAE11EED41F6000A629A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D13BAE21EED41F6000A629A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D13BAE31EED41F6000A629A /* Services(精选服务) */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BAE41EED41F6000A629A /* Model */,
+				2D13BAE51EED41F6000A629A /* ViewController */,
+				2D13BAE81EED41F6000A629A /* ViewModel */,
+			);
+			path = "Services(精选服务)";
+			sourceTree = "<group>";
+		};
+		2D13BAE41EED41F6000A629A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D13BAE51EED41F6000A629A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BAE61EED41F6000A629A /* Controller */,
+				2D13BAE71EED41F6000A629A /* View */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2D13BAE61EED41F6000A629A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9208D1EF297D000015042 /* MineTripServicesViewController.h */,
+				2DF9208E1EF297D000015042 /* MineTripServicesViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2D13BAE71EED41F6000A629A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D13BAE81EED41F6000A629A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D13BAE91EED41F6000A629A /* Settings(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BAEA1EED41F6000A629A /* Model */,
+				2D13BAEB1EED41F6000A629A /* ViewController */,
+				2D13BAEE1EED41F6000A629A /* ViewModel */,
+			);
+			path = "Settings(设置)";
+			sourceTree = "<group>";
+		};
+		2D13BAEA1EED41F6000A629A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D13BAEB1EED41F6000A629A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BAEC1EED41F6000A629A /* Controller */,
+				2D13BAED1EED41F6000A629A /* View */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2D13BAEC1EED41F6000A629A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BAFE1EED4469000A629A /* MineTripSettingsViewController.h */,
+				2D13BAFF1EED4469000A629A /* MineTripSettingsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2D13BAED1EED41F6000A629A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D13BAEE1EED41F6000A629A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D13BAEF1EED41F6000A629A /* Surroundings(周边配套) */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BAF01EED41F6000A629A /* Model */,
+				2D13BAF11EED41F6000A629A /* ViewController */,
+				2D13BAF41EED41F6000A629A /* ViewModel */,
+			);
+			path = "Surroundings(周边配套)";
+			sourceTree = "<group>";
+		};
+		2D13BAF01EED41F6000A629A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D13BAF11EED41F6000A629A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BAF21EED41F6000A629A /* Controller */,
+				2D13BAF31EED41F6000A629A /* View */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2D13BAF21EED41F6000A629A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DF920931EF2984600015042 /* MineTripSurroundingsViewController.h */,
+				2DF920941EF2984600015042 /* MineTripSurroundingsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2D13BAF31EED41F6000A629A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D13BAF41EED41F6000A629A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D13BAF51EED41F6000A629A /* Videos(视频动态) */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BAF61EED41F6000A629A /* Model */,
+				2D13BAF71EED41F6000A629A /* ViewController */,
+				2D13BAFA1EED41F6000A629A /* ViewModel */,
+			);
+			path = "Videos(视频动态)";
+			sourceTree = "<group>";
+		};
+		2D13BAF61EED41F6000A629A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D13BAF71EED41F6000A629A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D13BAF81EED41F6000A629A /* Controller */,
+				2D13BAF91EED41F6000A629A /* View */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2D13BAF81EED41F6000A629A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DF920901EF2982C00015042 /* MineTripVideosViewController.h */,
+				2DF920911EF2982C00015042 /* MineTripVideosViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2D13BAF91EED41F6000A629A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D13BAFA1EED41F6000A629A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2DF03EE11EED9E0900818398 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2DF03EE21EED9E0900818398 /* NSDictionary+Property.h */,
+				2DF03EE31EED9E0900818398 /* NSDictionary+Property.m */,
+				2DF03EE41EED9E0900818398 /* NSNotificationCenter+ChitAdd.h */,
+				2DF03EE51EED9E0900818398 /* NSNotificationCenter+ChitAdd.m */,
+				2DF03EE61EED9E0900818398 /* NSObject+Model.h */,
+				2DF03EE71EED9E0900818398 /* NSObject+Model.m */,
+				2DF03EE81EED9E0900818398 /* UIBarButtonItem+MineShopBarButtonCustom.h */,
+				2DF03EE91EED9E0900818398 /* UIBarButtonItem+MineShopBarButtonCustom.m */,
+				2DF03EEA1EED9E0900818398 /* UIBarButtonItem+MineShopBarItemAdd.h */,
+				2DF03EEB1EED9E0900818398 /* UIBarButtonItem+MineShopBarItemAdd.m */,
+				2DF03EEC1EED9E0900818398 /* UIButton+Delay.h */,
+				2DF03EED1EED9E0900818398 /* UIButton+Delay.m */,
+				2DF03EEE1EED9E0900818398 /* UIButton+touch.h */,
+				2DF03EEF1EED9E0900818398 /* UIButton+touch.m */,
+				2DF03EF71EED9E8E00818398 /* UIView+Extension.h */,
+				2DF03EF81EED9E8E00818398 /* UIView+Extension.m */,
+				2DF9207F1EF28B6100015042 /* UIViewController+MineTripSliderViewController.h */,
+				2DF920801EF28B6100015042 /* UIViewController+MineTripSliderViewController.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2DF920721EF2826700015042 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				2DF920731EF2826700015042 /* Controller */,
+				2DF920761EF2826700015042 /* Model */,
+				2DF920771EF2826700015042 /* View */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		2DF920731EF2826700015042 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DF920741EF2826700015042 /* NewFeatureViewController.h */,
+				2DF920751EF2826700015042 /* NewFeatureViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2DF920761EF2826700015042 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DF920771EF2826700015042 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DF920781EF2826700015042 /* NewFeatureCollectionViewCell.h */,
+				2DF920791EF2826700015042 /* NewFeatureCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		39024888E529D456BF6AA4E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				014D51F961D4FB4501E624B5 /* libPods-MineTrip.a */,
+				173483662FC5F9C7185201C1 /* libPods-MineTripTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6344DE5428580F1209649E5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C255C9799D80BCBB03ED0B68 /* Pods-MineTrip.debug.xcconfig */,
+				EE68FB1EFDB970699902D55D /* Pods-MineTrip.release.xcconfig */,
+				E7FCCFEA4871CBA06BCE3B3C /* Pods-MineTripTests.debug.xcconfig */,
+				EBE3C7C1D7D33FB60D1A3065 /* Pods-MineTripTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D13BA651EED29FD000A629A /* MineTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D13BA931EED29FE000A629A /* Build configuration list for PBXNativeTarget "MineTrip" */;
+			buildPhases = (
+				52CAF79E097E7F8975F53731 /* [CP] Check Pods Manifest.lock */,
+				2D13BA621EED29FD000A629A /* Sources */,
+				2D13BA631EED29FD000A629A /* Frameworks */,
+				2D13BA641EED29FD000A629A /* Resources */,
+				AA8DB19744E2E06B18BB2C2D /* [CP] Embed Pods Frameworks */,
+				CBCB2E58F12CC7C4E74790DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MineTrip;
+			productName = MineTrip;
+			productReference = 2D13BA661EED29FD000A629A /* MineTrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D13BA7E1EED29FE000A629A /* MineTripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D13BA961EED29FE000A629A /* Build configuration list for PBXNativeTarget "MineTripTests" */;
+			buildPhases = (
+				D3CD5DBDB926AC0C5227F9DF /* [CP] Check Pods Manifest.lock */,
+				2D13BA7B1EED29FE000A629A /* Sources */,
+				2D13BA7C1EED29FE000A629A /* Frameworks */,
+				2D13BA7D1EED29FE000A629A /* Resources */,
+				953A5D2FF1BE0F5E3045B39F /* [CP] Embed Pods Frameworks */,
+				1606E0B184C9895477594A16 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D13BA811EED29FE000A629A /* PBXTargetDependency */,
+			);
+			name = MineTripTests;
+			productName = MineTripTests;
+			productReference = 2D13BA7F1EED29FE000A629A /* MineTripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D13BA891EED29FE000A629A /* MineTripUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D13BA991EED29FE000A629A /* Build configuration list for PBXNativeTarget "MineTripUITests" */;
+			buildPhases = (
+				2D13BA861EED29FE000A629A /* Sources */,
+				2D13BA871EED29FE000A629A /* Frameworks */,
+				2D13BA881EED29FE000A629A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D13BA8C1EED29FE000A629A /* PBXTargetDependency */,
+			);
+			name = MineTripUITests;
+			productName = MineTripUITests;
+			productReference = 2D13BA8A1EED29FE000A629A /* MineTripUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D13BA5E1EED29FD000A629A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MineTrip;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = chit;
+				TargetAttributes = {
+					2D13BA651EED29FD000A629A = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = JCQL5V7V87;
+						ProvisioningStyle = Automatic;
+					};
+					2D13BA7E1EED29FE000A629A = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = JCQL5V7V87;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D13BA651EED29FD000A629A;
+					};
+					2D13BA891EED29FE000A629A = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = JCQL5V7V87;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D13BA651EED29FD000A629A;
+					};
+				};
+			};
+			buildConfigurationList = 2D13BA611EED29FD000A629A /* Build configuration list for PBXProject "MineTrip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D13BA5D1EED29FD000A629A;
+			productRefGroup = 2D13BA671EED29FD000A629A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D13BA651EED29FD000A629A /* MineTrip */,
+				2D13BA7E1EED29FE000A629A /* MineTripTests */,
+				2D13BA891EED29FE000A629A /* MineTripUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D13BA641EED29FD000A629A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D13BAA71EED3842000A629A /* Assets.xcassets in Resources */,
+				2DF920891EF295C600015042 /* MineTripLeftTableViewCell.xib in Resources */,
+				2D13BAA91EED3842000A629A /* Main.storyboard in Resources */,
+				2D13BAA81EED3842000A629A /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D13BA7D1EED29FE000A629A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D13BA881EED29FE000A629A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1606E0B184C9895477594A16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MineTripTests/Pods-MineTripTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52CAF79E097E7F8975F53731 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		953A5D2FF1BE0F5E3045B39F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MineTripTests/Pods-MineTripTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA8DB19744E2E06B18BB2C2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MineTrip/Pods-MineTrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBCB2E58F12CC7C4E74790DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MineTrip/Pods-MineTrip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3CD5DBDB926AC0C5227F9DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D13BA621EED29FD000A629A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF03EF11EED9E0900818398 /* NSNotificationCenter+ChitAdd.m in Sources */,
+				2DF03EF31EED9E0900818398 /* UIBarButtonItem+MineShopBarButtonCustom.m in Sources */,
+				2D04AAE51EF500AD00CA2266 /* MineTripLeftViewModel.m in Sources */,
+				2DF03ED21EED98F500818398 /* MineTripNetWorking.m in Sources */,
+				2DF03EF61EED9E0900818398 /* UIButton+touch.m in Sources */,
+				2DF9208F1EF297D000015042 /* MineTripServicesViewController.m in Sources */,
+				2DF920951EF2984600015042 /* MineTripSurroundingsViewController.m in Sources */,
+				2DF03EF01EED9E0900818398 /* NSDictionary+Property.m in Sources */,
+				2DF920681EF235FB00015042 /* MineTripSliderViewController.m in Sources */,
+				2DF03EF91EED9E8E00818398 /* UIView+Extension.m in Sources */,
+				2DF03EF21EED9E0900818398 /* NSObject+Model.m in Sources */,
+				2DF03EDC1EED9BA700818398 /* MineTripConst.m in Sources */,
+				2DF9206B1EF26D7400015042 /* MineTripLeftViewController.m in Sources */,
+				2DF03EF41EED9E0900818398 /* UIBarButtonItem+MineShopBarItemAdd.m in Sources */,
+				2DF9207A1EF2826700015042 /* NewFeatureViewController.m in Sources */,
+				2DF03ED81EED9B1200818398 /* MineTripShowMessageView.m in Sources */,
+				2DF920881EF295C600015042 /* MineTripLeftTableViewCell.m in Sources */,
+				2DF920811EF28B6100015042 /* UIViewController+MineTripSliderViewController.m in Sources */,
+				2DF9207B1EF2826700015042 /* NewFeatureCollectionViewCell.m in Sources */,
+				2DF9206E1EF26DCF00015042 /* MineTripHomeViewController.m in Sources */,
+				2D13BAA61EED3842000A629A /* AppDelegate.m in Sources */,
+				2D13BA6B1EED29FD000A629A /* main.m in Sources */,
+				2D13BB001EED4469000A629A /* MineTripSettingsViewController.m in Sources */,
+				2DF9208C1EF297B400015042 /* MineTripNewsViewController.m in Sources */,
+				2DF03EF51EED9E0900818398 /* UIButton+Delay.m in Sources */,
+				2DF920921EF2982C00015042 /* MineTripVideosViewController.m in Sources */,
+				2DF03EE01EED9D2400818398 /* MineTripRootVc.m in Sources */,
+				2DF03ED51EED9A3400818398 /* CommonUtils.m in Sources */,
+				2DF920711EF2717600015042 /* MineTripNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D13BA7B1EED29FE000A629A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D13BA841EED29FE000A629A /* MineTripTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D13BA861EED29FE000A629A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D13BA8F1EED29FE000A629A /* MineTripUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D13BA811EED29FE000A629A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D13BA651EED29FD000A629A /* MineTrip */;
+			targetProxy = 2D13BA801EED29FE000A629A /* PBXContainerItemProxy */;
+		};
+		2D13BA8C1EED29FE000A629A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D13BA651EED29FD000A629A /* MineTrip */;
+			targetProxy = 2D13BA8B1EED29FE000A629A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D13BAA01EED3842000A629A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D13BAA11EED3842000A629A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2D13BAA21EED3842000A629A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D13BAA31EED3842000A629A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D13BA911EED29FE000A629A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D13BA921EED29FE000A629A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D13BA941EED29FE000A629A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C255C9799D80BCBB03ED0B68 /* Pods-MineTrip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JCQL5V7V87;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MineTrip/Tools/Configure/PrefixHeader.pch";
+				INFOPLIST_FILE = MineTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yacheer.MineTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D13BA951EED29FE000A629A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE68FB1EFDB970699902D55D /* Pods-MineTrip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JCQL5V7V87;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MineTrip/Tools/Configure/PrefixHeader.pch";
+				INFOPLIST_FILE = MineTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yacheer.MineTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2D13BA971EED29FE000A629A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7FCCFEA4871CBA06BCE3B3C /* Pods-MineTripTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JCQL5V7V87;
+				INFOPLIST_FILE = MineTripTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yacheer.MineTripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MineTrip.app/MineTrip";
+			};
+			name = Debug;
+		};
+		2D13BA981EED29FE000A629A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE3C7C1D7D33FB60D1A3065 /* Pods-MineTripTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JCQL5V7V87;
+				INFOPLIST_FILE = MineTripTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yacheer.MineTripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MineTrip.app/MineTrip";
+			};
+			name = Release;
+		};
+		2D13BA9A1EED29FE000A629A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JCQL5V7V87;
+				INFOPLIST_FILE = MineTripUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yacheer.MineTripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MineTrip;
+			};
+			name = Debug;
+		};
+		2D13BA9B1EED29FE000A629A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JCQL5V7V87;
+				INFOPLIST_FILE = MineTripUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yacheer.MineTripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MineTrip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D13BA611EED29FD000A629A /* Build configuration list for PBXProject "MineTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D13BA911EED29FE000A629A /* Debug */,
+				2D13BA921EED29FE000A629A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D13BA931EED29FE000A629A /* Build configuration list for PBXNativeTarget "MineTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D13BA941EED29FE000A629A /* Debug */,
+				2D13BA951EED29FE000A629A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D13BA961EED29FE000A629A /* Build configuration list for PBXNativeTarget "MineTripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D13BA971EED29FE000A629A /* Debug */,
+				2D13BA981EED29FE000A629A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D13BA991EED29FE000A629A /* Build configuration list for PBXNativeTarget "MineTripUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D13BA9A1EED29FE000A629A /* Debug */,
+				2D13BA9B1EED29FE000A629A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D13BA5E1EED29FD000A629A /* Project object */;
+}
